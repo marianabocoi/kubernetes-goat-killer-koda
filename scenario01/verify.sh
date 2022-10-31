@@ -1,0 +1,1 @@
+if $SOLUTION != 'k8s-goat-51bc78332065561b0c99280f62510bcc'; then exit 1; fi

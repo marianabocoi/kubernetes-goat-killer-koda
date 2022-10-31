@@ -10,7 +10,8 @@
         "steps": [
           {
             "title": "⚡️ The story",
-            "text": "step01.md"
+            "text": "step01.md",
+            "verify": "verify.sh"
           },
           {
             "title": "⚡️ The config",
@@ -22,7 +23,8 @@
           },
           {
             "title": "⚡️ The secret",
-            "text": "step04.md"
+            "text": "step04.md",
+            "verify": "verify.sh"
           }
         ],
         "finish": {
