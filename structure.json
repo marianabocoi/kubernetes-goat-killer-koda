@@ -3,9 +3,10 @@
     "description": "This course is meant to walk you through the kubernetes goat repository. Dig deeper here: https://madhuakula.com/kubernetes-goat/",
     "items": [
       { "path": "scenario01",
-      "title": "Scenario 01 - Sensitive keys in codebases",
+      "title": "Scenario 01 - ⎈ Sensitive keys in codebases",
       "description": "This scenario is to focus on some popular mistakes by developers & DevOps teams when packaging the artifacts and application codebase. It has real-world impacts like a compromise of organizations and their infrastructure in the wild."},
-      { "path": "scenario02" , "title": "Scenario 02 - ⎈ DIND (docker-in-docker) exploitation",
+      { "path": "scenario02" , 
+      "title": "Scenario 02 - ⎈ DIND (docker-in-docker) exploitation",
       "description": "In this scenario, we will be focusing on the common and standard ways how to build systems and pipelines that leverage container sockets to create, build and run containers from the underlying container runtime. This has been exploited since the early days of the container ecosystem and even today we see these misconfigurations/use cases in the real world."}
     ]
   }
