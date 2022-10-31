@@ -1,5 +1,5 @@
 {
-    "title": "Scenario 01 - Sensitive keys in codebases",
+    "title": "Scenario 01 - ⎈ Sensitive keys in codebases",
     "description": "This scenario is to focus on some popular mistakes by developers & DevOps teams when packaging the artifacts and application codebase. It has real-world impacts like a compromise of organizations and their infrastructure in the wild.",
     "details": {
         "intro": {
@@ -9,9 +9,8 @@
         },
         "steps": [
           {
-            "title": "Create a pod",
-            "text": "step01/text.md",
-            "verify": "step01/verify.sh"
+            "title": "⚡️ The story",
+            "text": "step01/text.md"
           }
         ],
         "finish": {

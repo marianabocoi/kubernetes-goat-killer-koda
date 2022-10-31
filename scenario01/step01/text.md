@@ -1,17 +1,6 @@
-This is the best description
+Developers tend to commit sensitive information to version control systems. As we are moving towards CI/CD and GitOps systems, we tend to forget to identify sensitive information in code and commits. Let's see if we can find something cool here 😀
 
-[ACCESS The Goat]({{TRAFFIC_HOST1_1234}})
+[ACCESS The Goat port 1230]({{TRAFFIC_HOST1_1230}})
 
-
-Others
-[ACCESS The Goat ]({{TRAFFIC_HOST1_1230}})
-[ACCESS The Goat]({{TRAFFIC_HOST1_1231}})
-[ACCESS The Goat]({{TRAFFIC_HOST1_1232}})
-[ACCESS The Goat]({{TRAFFIC_HOST1_1233}})
-[ACCESS The Goat]({{TRAFFIC_HOST1_1235}})
-[ACCESS The Goat]({{TRAFFIC_HOST1_1236}})
-
-It's also possible to access ports using the top-right navigation in the terminal.
-Or we can display the link to that page:
-
+Available ports:
 [ACCESS PORTS]({{TRAFFIC_SELECTOR}})

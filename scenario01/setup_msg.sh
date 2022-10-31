@@ -1,21 +1,4 @@
-#!/bin/bash
-echo -n 'Setting up the cluster'
-sleep 1
-echo -n '.' 
-sleep 1
-echo -n '.' 
-sleep 1
-echo -n '.' 
-sleep 1
-echo -n '.' 
-sleep 1
-echo -n '.' 
-sleep 1
-echo -n '.' 
-sleep 1
-echo -n '.' 
-sleep 1
-echo '.' 
-sleep 1
-# Test for the setup to be actually up
-echo 'Done' 
+echo waiting for init-background-script to finish
+while [ ! -f /tmp/background0 ]; do sleep 1; done
+bash access-kubernetes-goat.sh
+echo Hello and welcome to this scenario!
