@@ -13,7 +13,7 @@ echo " | . \ |_| | |_) |  __/ |  | | | |  __/ ||  __/\__ \ " >>kubegoat
 echo " |_|\_\__,_|_.__/ \___|_|  |_| |_|\___|\__\___||___/ " >>kubegoat
 echo "                   | |                               " >>kubegoat
 echo "   __ _  ___   __ _| |_                              " >>kubegoat
-echo "  / _` |/ _ \ / _` | __|                             " >>kubegoat
+echo "  / _` \|/ _ \ / _` | __|                             " >>kubegoat
 echo " | (_| | (_) | (_| | |_                              " >>kubegoat
 echo "  \__, |\___/ \__,_|\__|                             " >>kubegoat
 echo "   __/ |                                             " >>kubegoat
