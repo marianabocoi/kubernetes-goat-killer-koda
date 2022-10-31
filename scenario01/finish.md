@@ -1,3 +1,5 @@
+[Kubernetes Goat Scenario](https://madhuakula.com/kubernetes-goat/docs/scenarios/scenario-1)
+
 Now we can see that it contains hardcoded AWS keys and our awesome Kubernetes Goat flag as well
 
 🔖 References

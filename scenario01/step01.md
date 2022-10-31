@@ -1,17 +1,11 @@
+[Kubernetes Goat Scenario](https://madhuakula.com/kubernetes-goat/docs/scenarios/scenario-1)
+
 Developers tend to commit sensitive information to version control systems. As we are moving towards CI/CD and GitOps systems, we tend to forget to identify sensitive information in code and commits. Let's see if we can find something cool here 😀
 
 [ACCESS The Goat port 1230]({{TRAFFIC_HOST1_1230}})
 
-# Capture the Flag
-If you want to give it a go to find the flag, stop here!
-To solve export the flag to an environment variable as below
-```
-export SOLUTION=<flag>
-```
-Then press verify on this page.
-
 # Step by step
-To get a step by step walkthrough instead, click next and you will be guided on how to find the flag.
+To get a step by step walkthrough, click next and you will be guided on how to find the flag.
 
 ### If the page does not load click on the code below:
 ```

@@ -1,3 +1,5 @@
+[Kubernetes Goat Scenario](https://madhuakula.com/kubernetes-goat/docs/scenarios/scenario-1)
+
 This scenario is to focus on some popular mistakes by developers & DevOps teams when packaging the artifacts and application codebase. It has real-world impacts like a compromise of organizations and their infrastructure in the wild.
 
 By the end of the scenario, we will understand and learn the following
@@ -6,3 +8,5 @@ By the end of the scenario, we will understand and learn the following
 - Common mistakes or misconfigurations of packaging applications and containers
 - Detecting sensitive keys and information in version control system codebases
 - Using open-source tools to identify and detect secrets
+
+Read more here: [Kubernetes goat](https://github.com/madhuakula/kubernetes-goat)

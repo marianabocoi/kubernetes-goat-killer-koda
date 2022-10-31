@@ -1,3 +1,5 @@
+[Kubernetes Goat Scenario](https://madhuakula.com/kubernetes-goat/docs/scenarios/scenario-1)
+
 Navigate to the downloaded git repository folder for the analysis
 ```
 cd k8s-goat-git
