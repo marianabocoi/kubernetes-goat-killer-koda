@@ -3,9 +3,6 @@ Developers tend to commit sensitive information to version control systems. As w
 
 [ACCESS The Goat port 1230]({{TRAFFIC_HOST1_1230}})
 
-# Step by step
-To get a step by step walkthrough, click next and you will be guided on how to find the flag.
-
 ### If the page does not load click on the code below:
 ```
 kubectl get pods --namespace default -l "app=build-code"
