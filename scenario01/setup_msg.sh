@@ -1,3 +1,4 @@
+#!/bin/bash
 echo -n 'Setting up the cluster'
 sleep 1
 echo -n '.' 
