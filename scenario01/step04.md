@@ -1,4 +1,3 @@
-[Kubernetes Goat Scenario](https://madhuakula.com/kubernetes-goat/docs/scenarios/scenario-1)
 
 Navigate to the downloaded git repository folder for the analysis
 ```
@@ -20,3 +19,5 @@ Set the solution variable and verify.
 ```
 export SOLUTION=<flag>
 ```
+
+Read more here: [Kubernetes Goat Scenario](https://madhuakula.com/kubernetes-goat/docs/scenarios/scenario-1)
