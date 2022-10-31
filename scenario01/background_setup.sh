@@ -1,5 +1,5 @@
 #!/bin/bash
-
+pip install git-dumper
 git clone https://github.com/madhuakula/kubernetes-goat.git
 
 cd kubernetes-goat

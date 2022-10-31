@@ -10,10 +10,23 @@
         "steps": [
           {
             "title": "⚡️ The story",
-            "text": "step01/text.md"
+            "text": "step01.md"
+          },
+          {
+            "title": "⚡️ The config",
+            "text": "step02.md"
+          },
+          {
+            "title": "⚡️ Get git",
+            "text": "step03.md"
+          },
+          {
+            "title": "⚡️ The secret",
+            "text": "step04.md"
           }
         ],
         "finish": {
+          "title": "Hooray 🥳",
           "text": "finish.md"
         }
       },
