@@ -8,4 +8,4 @@ By the end of the scenario, we will understand and learn the following
 - Detecting sensitive keys and information in version control system codebases
 - Using open-source tools to identify and detect secrets
 
-Full scenario write-up: [Kubernetes Goat Scenario](https://madhuakula.com/kubernetes-goat/docs/scenarios/scenario-1)
+Full scenario write-up: [Kubernetes Goat Scenario-01](https://madhuakula.com/kubernetes-goat/docs/scenarios/scenario-1)

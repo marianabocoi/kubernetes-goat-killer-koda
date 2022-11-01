@@ -19,5 +19,3 @@ Set the solution variable and verify.
 ```
 export SOLUTION=<flag>
 ```
-
-Read more here: [Kubernetes Goat Scenario](https://madhuakula.com/kubernetes-goat/docs/scenarios/scenario-1)
