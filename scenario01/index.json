@@ -21,8 +21,12 @@
             "text": "step03.md"
           },
           {
+            "title": "⚡️ Get git",
+            "text": "step04.md"
+          },
+          {
             "title": "⚡️ The secret",
-            "text": "step04.md",
+            "text": "step05.md",
             "verify": "verify.sh"
           }
         ],

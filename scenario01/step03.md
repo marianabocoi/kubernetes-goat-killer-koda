@@ -1,6 +1,2 @@
-
-We can clone the git repository locally from the remote website using the opensource utilities like `git-dumper`
-
-```
-git-dumper {{TRAFFIC_HOST1_1230}}/.git k8s-goat-git
-```
+## Hint 02
+For example checking [http://localhost:1230/.git/config]({{TRAFFIC_HOST1_1230}}/.git/config) shows if it has a git configuration.
