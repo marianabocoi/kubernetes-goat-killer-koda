@@ -1,21 +1,11 @@
+## Hint 03
 
-Navigate to the downloaded git repository folder for the analysis
-```
-cd k8s-goat-git
-```
-
-We can verify the git history and information by looking at logs and previous commit history
+We can see if there are any interesting messages in the git history:
 ```
 git log
 ```
 
-We can see that there is a quite interesting commit after checking the messages. We can check out what was added with a diff.
-
+We notice that there is an interesting commit mentioning **environmental variables**. We can check out what was added with `diff`:
 ```
 git diff bb2967a6f26fb59bf64031bbb14b4f3e233944ca d7c173ad183c574109cd5c4c648ffe551755b576
-```
-
-Set the solution variable and verify. 
-```
-export SOLUTION=<flag>
 ```

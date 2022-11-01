@@ -25,8 +25,12 @@
             "text": "step04.md"
           },
           {
+            "title": "⚡️ Get env",
+            "text": "step05.md"
+          },
+          {
             "title": "⚡️ The secret",
-            "text": "step05.md",
+            "text": "step06.md",
             "verify": "verify.sh"
           }
         ],
