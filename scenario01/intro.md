@@ -1,5 +1,5 @@
 
-This scenario is to focus on some popular mistakes by developers & DevOps teams when packaging the artifacts and application codebase. It has real-world impacts like a compromise of organizations and their infrastructure in the wild.
+This scenario focuses on common mistakes developers and DevOps teams make when packaging artefacts and application code. It demos real-world impact, similar to a compromised organization and their infrastructure.
 
 By the end of the scenario, we will understand and learn the following
 
@@ -8,4 +8,4 @@ By the end of the scenario, we will understand and learn the following
 - Detecting sensitive keys and information in version control system codebases
 - Using open-source tools to identify and detect secrets
 
-Read more here: [Kubernetes Goat Scenario](https://madhuakula.com/kubernetes-goat/docs/scenarios/scenario-1)
+Full scenario write-up: [Kubernetes Goat Scenario](https://madhuakula.com/kubernetes-goat/docs/scenarios/scenario-1)
