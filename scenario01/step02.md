@@ -1,7 +1,7 @@
 ## The Secret
-For example, we have a service deployed on Kubernetes serving a web page. Inspect the service page here: [Goat Service (port 1230)]({{TRAFFIC_HOST1_1230}}). Can you discover any hidden secrets that are released unintentionally?
+In this scenario, we have a service `Build Code` deployed on Kubernetes that serves a web page. Inspect the service page here: [Build Code service page]({{TRAFFIC_HOST1_1230}}). Can you discover any hidden secrets that are released unintentionally?
 
-You will use the command-line tools in the terminal to get the secrets. You can try alone or follow the steps on the NEXT pages 🔎.
+You will use the command-line tools in the terminal to get the secrets. You can try finding the secrets by yourself or follow the steps on the `NEXT` pages 🔎.
 
 ### Troubleshooting
 If the service page above does not load
