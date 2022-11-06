@@ -19,7 +19,7 @@ echo "   __/ |                                             " >>kubegoat
 echo "  |___/  " >>kubegoat
 
 
-echo 'eexport POD_NAME=$(kubectl get pods --namespace default -l "app=system-monitor" -o jsonpath="{.items[0].metadata.name}")'> startup.sh
+echo 'export POD_NAME=$(kubectl get pods --namespace default -l "app=system-monitor" -o jsonpath="{.items[0].metadata.name}")'> startup.sh
 echo 'kubectl port-forward $POD_NAME --address 0.0.0.0 1233:8080 > /dev/null 2>&1 &'>> startup.sh
 echo 'cat ~/kubegoat'>> startup.sh
 echo 'echo ==================================='>> startup.sh
