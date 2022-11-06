@@ -7,6 +7,9 @@
       "description": "This scenario focuses on common mistakes developers and DevOps teams make when packaging artefacts and application code. It demos real-world impact, similar to a compromised organization and their infrastructure."},
       { "path": "scenario02" , 
       "title": "Scenario 02 - ⎈ DIND (docker-in-docker) exploitation",
-      "description": "In this scenario, we will be focusing on the common and standard ways how to build systems and pipelines that leverage container sockets to create, build and run containers from the underlying container runtime. This has been exploited since the early days of the container ecosystem and even today we see these misconfigurations/use cases in the real world."}
+      "description": "In this scenario, we will be focusing on the common and standard ways how to build systems and pipelines that leverage container sockets to create, build and run containers from the underlying container runtime. This has been exploited since the early days of the container ecosystem and even today we see these misconfigurations/use cases in the real world."},
+      { "path": "scenario03" , 
+      "title": "Scenario 03 - ⎈ Gaining environment information",
+      "description": "bad stuff happens when ..."}
     ]
   }
