@@ -1,0 +1,29 @@
+{
+    "title": "Scenario 04 - ⎈ RBAC least privileges misconfiguration",
+    "description": "bad stuff happens when you are over-permissive",
+    "details": {
+        "intro": {
+          "text": "intro.md",
+          "background": "background_setup.sh",
+          "foreground": "setup_msg.sh"
+        },
+        "steps": [
+          {
+            "title": "⚡️ The story",
+            "text": "step01.md"
+          },
+          {
+            "title": "⚡️ The secret",
+            "text": "step02.md",
+            "verify": "verify.sh"
+          }
+        ],
+        "finish": {
+          "title": "Hooray 🥳",
+          "text": "finish.md"
+        }
+      },
+      "backend": {
+        "imageid": "kubernetes-kubeadm-2nodes-ubuntu20.04"
+      }
+}

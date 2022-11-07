@@ -10,6 +10,9 @@
       "description": "In this scenario, we will be focusing on the common and standard ways how to build systems and pipelines that leverage container sockets to create, build and run containers from the underlying container runtime. This has been exploited since the early days of the container ecosystem and even today we see these misconfigurations/use cases in the real world."},
       { "path": "scenario03" , 
       "title": "Scenario 03 - ⎈ Gaining environment information",
-      "description": "bad stuff happens when ..."}
+      "description": "bad stuff happens when ..."},
+      { "path": "scenario04" , 
+      "title": "Scenario 04 - ⎈ RBAC least privileges misconfiguration",
+      "description": "bad stuff happens when you're over permissive"}
     ]
   }
