@@ -1,0 +1,53 @@
+{
+    "title": "Scenario 15 - ⎈ Hidden in layers",
+    "description": "Most of the container images download and used on the internet are created by someone else. If we don't know how they get created (which means if we don't have Dockerfile) then I think we might be in trouble sometimes. In this scenario, we can see how to analyze the docker container image layers by using the built-in utilities and also some popular open-source utilities like dive to understand the container image layers.",
+    "details": {
+        "intro": {
+          "text": "intro.md",
+          "background": "background_setup.sh",
+          "foreground": "setup_msg.sh"
+        },
+        "steps": [
+          {
+            "title": "⚡️ The story",
+            "text": "step01.md"
+          },
+          {
+            "title": "⚡️ The goal",
+            "text": "step02.md"
+          },
+          {
+            "title": "⚡️ Hints and spoilers",
+            "text": "step03.md"
+          },
+          {
+            "title": "⚡️ Solution walkthrough",
+            "text": "step04.md"
+          },
+          {
+            "title": "⚡️ Method 1",
+            "text": "step05.md"
+          },
+          {
+            "title": "⚡️ Method 2",
+            "text": "step06.md"
+          },
+          {
+            "title": "⚡️ Method 3",
+            "text": "step07.md"
+          },                    
+          {
+            "title": "⚡️ The secret",
+            "text": "step08.md",
+            "verify": "verify.sh"
+          }
+        ],
+        "finish": {
+          "title": "Hooray 🥳",
+          "text": "finish.md"
+        }
+      },
+      "backend": {
+        "imageid": "kubernetes-kubeadm-2nodes-ubuntu20.04"
+      }
+}

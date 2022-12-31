@@ -1,5 +1,4 @@
 #!/bin/bash
-pip install git-dumper
 git clone https://github.com/madhuakula/kubernetes-goat.git
 
 kubectl apply -f kubernetes-goat/scenarios/hunger-check/deployment.yaml
@@ -20,8 +19,8 @@ echo "   __/ |                                             " >>kubegoat
 echo "  |___/  " >>kubegoat
 
 
-echo 'export POD_NAME=$(kubectl get pods --namespace default -l "app=hunger-check" -o jsonpath="{.items[0].metadata.name}")'> startup.sh
-echo 'kubectl port-forward $POD_NAME --address 0.0.0.0 1230:3000 > /dev/null 2>&1 &'>> startup.sh
+echo 'export POD_NAME=$(kubectl get pods --namespace big-monolith -l "app=hunger-check" -o jsonpath="{.items[0].metadata.name}")'> startup.sh
+echo 'kubectl --namespace $POD_NAME port-forward $POD_NAME --address 0.0.0.0 1236:8080 > /dev/null 2>&1 &'>> startup.sh
 echo 'cat ~/kubegoat'>> startup.sh
 echo 'echo ==================================='>> startup.sh
 echo 'echo Hello and welcome to this scenario!'>> startup.sh

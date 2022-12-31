@@ -1,0 +1,41 @@
+{
+    "title": "Scenario 10 - ⎈ Analysing crypto miner container",
+    "description": "It's commonly seen that most of the container users download the images from the public container registries like Docker Hub and others. We have seen a ton of hacks and compromises of these and also attackers abusing these by uploading the container images which has crypto miners to use the cluster resources. In this scenario, we see one simple and very common way of exploiting these vulnerabilities in the public container images.",
+    "details": {
+        "intro": {
+          "text": "intro.md",
+          "background": "background_setup.sh",
+          "foreground": "setup_msg.sh"
+        },
+        "steps": [
+          {
+            "title": "⚡️ The story",
+            "text": "step01.md"
+          },
+          {
+            "title": "⚡️ The goal",
+            "text": "step02.md"
+          },
+          {
+            "title": "⚡️ Hints and spoilers",
+            "text": "step03.md"
+          },
+          {
+            "title": "⚡️ Solution workthrough",
+            "text": "step04.md"
+          },
+          {
+            "title": "⚡️ The secret",
+            "text": "step05.md",
+            "verify": "verify.sh"
+          }
+        ],
+        "finish": {
+          "title": "Hooray 🥳",
+          "text": "finish.md"
+        }
+      },
+      "backend": {
+        "imageid": "kubernetes-kubeadm-2nodes-ubuntu20.04"
+      }
+}
