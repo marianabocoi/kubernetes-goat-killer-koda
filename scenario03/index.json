@@ -1,0 +1,49 @@
+{
+  "title": "SSRF in the Kubernetes (K8S) world",
+  "description": "SSRF vulnerabilities in applications in cloud environments",
+  "details": {
+    "intro": {
+      "title": "Intro",
+      "text": "intro/text.md",
+      "foreground": "intro/foreground.sh",
+      "background": "intro/background.sh"
+    },
+    "steps": [
+      {
+        "title": "⚡️ The story",
+        "text": "step1.md"
+      },
+      {
+        "title": "⚡️ The page",
+        "text": "step2.md"
+      },
+      {
+        "title": "⚡️ The goal",
+        "text": "step3.md"
+      },
+      {
+        "title": "⚡️ The hints",
+        "text": "step4.md"
+      },
+      {
+        "title": "⚡️ The walkthrough",
+        "text": "step5.md"
+      },
+      {
+        "title": "⚡️ The walkthrough 2",
+        "text": "step6.md"
+      },
+      {
+        "title": "⚡️ The End",
+        "text": "step7.md",
+        "verify": "verify.sh"
+      }
+    ],
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "backend": {
+    "imageid": "kubernetes-kubeadm-2nodes"
+  }
+}

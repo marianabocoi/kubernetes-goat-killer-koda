@@ -9,10 +9,10 @@
       "title": "Scenario 02 - ⎈ DIND (docker-in-docker) exploitation",
       "description": "In this scenario, we will be focusing on the common and standard ways how to build systems and pipelines that leverage container sockets to create, build and run containers from the underlying container runtime. This has been exploited since the early days of the container ecosystem and even today we see these misconfigurations/use cases in the real world."},
       { "path": "scenario03" , 
-      "title": "Scenario 03 - ⎈ Gaining environment information",
-      "description": "bad stuff happens when ..."},
-      { "path": "scenario04" , 
-      "title": "Scenario 04 - ⎈ RBAC least privileges misconfiguration",
-      "description": "bad stuff happens when you're over permissive"}
+      "title": "Scenario 03 - ⎈ SSRF in the Kubernetes (K8S) world",
+      "description": "SSRF vulnerabilities in applications in cloud environments"},
+      { "path": "scenario10" , 
+      "title": "Scenario 10 - ⎈ Analysing crypto miner container",
+      "description": "It's commonly seen that most of the container users download the images from the public container registries like Docker Hub and others. We have seen a ton of hacks and compromises of these and also attackers abusing these by uploading the container images which has crypto miners to use the cluster resources. In this scenario, we see one simple and very common way of exploiting these vulnerabilities in the public container images."}
     ]
   }
