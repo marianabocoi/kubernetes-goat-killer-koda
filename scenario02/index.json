@@ -1,7 +1,49 @@
 {
-    "title": "Scenario 02 - ⎈ DIND (docker-in-docker) exploitation",
-    "description": "In this scenario, we will be focusing on the common and standard ways how to build systems and pipelines that leverage container sockets to create, build and run containers from the underlying container runtime. This has been exploited since the early days of the container ecosystem and even today we see these misconfigurations/use cases in the real world.",
-    "backend": {
-      "imageid": "ubuntu"
+  "title": "DIND (docker-in-docker) exploitation",
+  "description": "we try to exploit and gain access to the host system.",
+  "details": {
+    "intro": {
+      "title": "Intro",
+      "text": "intro/text.md",
+      "foreground": "intro/foreground.sh",
+      "background": "intro/background.sh"
+    },
+    "steps": [
+      {
+        "title": "⚡️ The story",
+        "text": "step1.md"
+      },
+      {
+        "title": "⚡️ The page",
+        "text": "step2.md"
+      },
+      {
+        "title": "⚡️ The goal",
+        "text": "step3.md"
+      },
+      {
+        "title": "⚡️ The hints",
+        "text": "step4.md"
+      },
+      {
+        "title": "⚡️ The walkthrough",
+        "text": "step5.md"
+      },
+      {
+        "title": "⚡️ The walkthrough 2",
+        "text": "step6.md"
+      },
+      {
+        "title": "⚡️ The End",
+        "text": "step7.md",
+        "verify": "verify.sh"
+      }
+    ],
+    "finish": {
+      "text": "finish.md"
     }
+  },
+  "backend": {
+    "imageid": "kubernetes-kubeadm-2nodes"
+  }
 }
