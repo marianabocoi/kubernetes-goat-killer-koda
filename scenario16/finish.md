@@ -1,6 +1,6 @@
-Hooray 🥳 , we found an awesome Kubernetes Goat flag.
+* Hooray 🥳 , we found an awesome Kubernetes Goat flag
 
-🔖 References​
+## 🔖 References
 
-RBAC Authorization Kubernetes
-Accessing the Kubernetes API from a Pod
+* [RBAC Authorization Kubernetes](https://kubernetes.io/docs/reference/access-authn-authz/rbac/)
+* [Accessing the Kubernetes API from a Pod](https://kubernetes.io/docs/tasks/run-application/access-api-from-pod/)

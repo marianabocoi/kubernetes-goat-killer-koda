@@ -1,8 +1,7 @@
-* > This deployment has a custom serviceaccount mapped with overly permissive policy/access. As an attacker we can leverage this to gain access to other resources and services.
+### 🎯 Goal
 
-* As the Kubernetes stores all the secrets, tokens and service accounts information in the default place, navigate to there to find the useful information
+:::tip
 
-```bash
-cd /var/run/secrets/kubernetes.io/serviceaccount/
-ls -larth
-```
+Find the `k8s_goat_flag` flag value by gaining access to the Kubernetes secret `k8svaultapikey` by exploiting the RBAC privileges to complete this scenario.
+
+:::

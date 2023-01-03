@@ -1,6 +1,6 @@
 {
-    "title": "Scenario 04 - ⎈ RBAC least privileges misconfiguration",
-    "description": "bad stuff happens when you are over-permissive",
+    "title": "Scenario 16 - ⎈ RBAC least privileges misconfiguration",
+    "description": "In the early days of Kubernetes, there is no such concept as RBAC (role-based access control) and mostly it uses ABAC (attribute-based access control). Now it has superpowers like RBAC to implement the security principle of least privilege. Still, most of the real-world workloads and resources end up having wider privileges than it is intended to have. In this scenario, we will see how simple misconfiguration like this can gain access to secrets, more resources, and information.",
     "details": {
         "intro": {
           "text": "intro.md",
@@ -13,8 +13,20 @@
             "text": "step01.md"
           },
           {
-            "title": "⚡️ The secret",
-            "text": "step02.md",
+            "title": "⚡️ The goal",
+            "text": "step02.md"
+          },
+          {
+            "title": "⚡️ Hints & Spoilers",
+            "text": "step03.md"
+          },
+          {
+            "title": "⚡️ The solution",
+            "text": "step04.md"
+          },
+          {
+            "title": "⚡️ Verify",
+            "text": "step05.md",
             "verify": "verify.sh"
           }
         ],
