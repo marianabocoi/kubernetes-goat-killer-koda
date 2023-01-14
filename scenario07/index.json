@@ -1,0 +1,41 @@
+{
+    "title": "Scenario 07 - ⎈ Attacking private registry",
+    "description": "In this scenario, we will see one of the misconfigurations of Docker container private registries and how we can obtain and gain access to the images and their content. There was a popular hack around this in the early days of containers where vine (Twitter acquired now) got hacked and the entire source code of the product was leaked due to this simple misconfiguration. ",
+    "details": {
+        "intro": {
+          "text": "intro.md",
+          "background": "background_setup.sh",
+          "foreground": "setup_msg.sh"
+        },
+        "steps": [
+          {
+            "title": "⚡️ The story",
+            "text": "step01.md"
+          },
+          {
+            "title": "🎯 Goal",
+            "text": "step02.md"
+          },
+          {
+            "title": "🪄 Hints & Spoilers",
+            "text": "step03.md"
+          },
+          {
+            "title": "🎉 Solution & Walkthrough",
+            "text": "step04.md"
+          },
+          {
+            "title": "⚡️ Verify",
+            "text": "step05.md",
+            "verify": "verify.sh"
+          }
+        ],
+        "finish": {
+          "title": "Hooray 🥳",
+          "text": "finish.md"
+        }
+      },
+      "backend": {
+        "imageid": "kubernetes-kubeadm-2nodes-ubuntu20.04"
+      }
+}
