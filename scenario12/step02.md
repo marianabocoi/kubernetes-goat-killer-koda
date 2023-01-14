@@ -1,8 +1,7 @@
-* Go ahead and explore the system as a generic linux system
+### 🎯 Goal
 
-```bash
-cat /proc/self/cgroup
-cat /etc/hosts
-mount
-ls -la /home/
-```
+:::tip
+
+Get the `k8s_goat_flag` flag value then you have completed this scenario. This can be found in multiple ways!
+
+:::
