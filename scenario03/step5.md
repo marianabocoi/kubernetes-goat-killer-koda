@@ -16,4 +16,3 @@ Now we can see that there is an internal-only exposed service within the cluster
     <div>If the pod hangs just kill the pods and rerun the expose service script</div>
   </div>
 </details>
-
