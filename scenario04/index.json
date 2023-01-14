@@ -1,6 +1,6 @@
 {
-    "title": "Scenario 06 - ⎈ Kubernetes CIS benchmarks analysis",
-    "description": "This scenario is very useful in performing Kubernetes security audits and assessments. Here we will learn to run the popular CIS benchmark audit for the Kubernetes cluster and use the results for the further exploitation or fixing of the misconfigurations and vulnerabilities. This is very important and mandates if you are coming from an audit and compliance background in the modern world of containers, Kubernetes, and cloud native ecosystems.",
+    "title": "Scenario 04 - ⎈ Container escape to the host system",
+    "description": "This scenario showcases the common misconfigurations and one of the error-prone security issues in Kubernetes, container environments, and the general security world. Giving privileges that are not required for things always makes security worse. This is especially true in the containers and Kubernetes world. You can also apply this scenario further and beyond the container to other systems and services based on the configuration and setup of the cluster environments and resources. In this scenario you will see a privileged container escape to gain access to the host system.",
     "details": {
         "intro": {
           "text": "intro.md",
