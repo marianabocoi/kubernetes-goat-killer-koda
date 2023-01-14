@@ -8,4 +8,4 @@ To get started with the scenario, navigate to [http://127.0.0.1:1236](http://127
 
 :::
 
-![Scenario 16 Welcome](images/sc-16-1.png)
+![Scenario 16 Welcome](./sc-16-1.png)

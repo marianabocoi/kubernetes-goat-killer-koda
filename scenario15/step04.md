@@ -12,7 +12,7 @@ Try exploring all files, environment variables, etc in the running container. Ne
 docker inspect madhuakula/k8s-goat-hidden-in-layers
 ```
 
-![Scenario 15 docker inspect](images/sc-15-1.png)
+![Scenario 15 docker inspect](./sc-15-1.png)
 
 * We can observe the `cmd` section in the above output. It shows the default command executed by this image on startup. Though this shows some interesting information, it's not good enough for us
 

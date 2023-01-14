@@ -96,7 +96,7 @@ From here you can try and leverage all the possible Kubernetes operations. As Ku
 curl --cacert ${CACERT} --header "Authorization: Bearer ${TOKEN}" -X GET ${APISERVER}/api/v1/namespaces/${NAMESPACE}/secrets | grep k8svaultapikey 
 ```
 
-![Scenario 16 get k8svaultapikey](images/sc-16-7.png)
+![Scenario 16 get k8svaultapikey](./sc-16-7.png)
 
 * We can decode the base64 encoded value using the following command
 

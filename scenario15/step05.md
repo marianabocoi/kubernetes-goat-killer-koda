@@ -6,4 +6,4 @@
 docker history --no-trunc madhuakula/k8s-goat-hidden-in-layers
 ```
 
-![Scenario 15 docker history](images/sc-15-2.png)
+![Scenario 15 docker history](./sc-15-2.png)

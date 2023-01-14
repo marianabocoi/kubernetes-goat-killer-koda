@@ -7,7 +7,7 @@
 stress-ng --vm 2 --vm-bytes 2G --timeout 30s
 ```
 
-![Scenario 13 stress-ng](images/sc-13-2.png)
+![Scenario 13 stress-ng](./sc-13-2.png)
 
 * You can see the difference between while running `stress-ng` and after
 
@@ -15,6 +15,6 @@ stress-ng --vm 2 --vm-bytes 2G --timeout 30s
 kubectl top pod hunger-check-deployment-xxxxxxxxxx-xxxxx
 ```
 
-![Scenario 13 kubectl top](images/sc-13-3.png)
+![Scenario 13 kubectl top](./sc-13-3.png)
 
 > This attack may not work in some cases like autoscaling, resource restrictions, etc.

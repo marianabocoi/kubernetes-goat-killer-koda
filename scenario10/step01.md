@@ -12,4 +12,4 @@ kubectl get jobs
 
 :::
 
-![Scenario 10 get jobs](images/sc-10-1.png)
+![Scenario 10 get jobs](./sc-10-1.png)

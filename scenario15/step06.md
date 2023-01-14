@@ -10,4 +10,4 @@ alias dfimage="docker run -v /var/run/docker.sock:/var/run/docker.sock --rm alpi
 dfimage -sV=1.36 madhuakula/k8s-goat-hidden-in-layers
 ```
 
-![Scenario 15 dockerfile](images/sc-15-3.png)
+![Scenario 15 dockerfile](./sc-15-3.png)
