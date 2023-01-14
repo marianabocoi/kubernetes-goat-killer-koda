@@ -1,0 +1,40 @@
+{
+    "title": "Scenario 05 - ⎈ Docker CIS benchmarks analysis",
+    "description": "This scenario is very useful in performing container security audits and assessments. Here we will learn to run the popular CIS benchmark audit for the docker containers and use the results for the further exploitation or fixing of the misconfigurations and vulnerabilities. This is very important if you are coming from an audit and compliance background in the modern world of containers and cloud native ecosystems.",
+    "details": {
+        "intro": {
+          "text": "intro.md",
+          "background": "background_setup.sh",
+          "foreground": "setup_msg.sh"
+        },
+        "steps": [
+          {
+            "title": "⚡️ The story",
+            "text": "step01.md"
+          },
+          {
+            "title": "🎯 Goal",
+            "text": "step02.md"
+          },
+          {
+            "title": "🪄 Hints & Spoilers",
+            "text": "step03.md"
+          },
+          {
+            "title": "⚡️ Solution workthrough",
+            "text": "step04.md"
+          },
+          {
+            "title": "⚡️ Wrap up",
+            "text": "step05.md"
+          }
+        ],
+        "finish": {
+          "title": "Hooray 🥳",
+          "text": "finish.md"
+        }
+      },
+      "backend": {
+        "imageid": "kubernetes-kubeadm-2nodes-ubuntu20.04"
+      }
+}
