@@ -13,13 +13,20 @@
             "text": "step01.md"
           },
           {
-            "title": "⚡️ Solution",
+            "title": "🎯 Goal",
             "text": "step02.md"
           },
           {
-            "title": "⚡️ The secret",
-            "text": "step03.md",
-            "verify": "verify.sh"
+            "title": "🪄 Hints & Spoilers",
+            "text": "step03.md"
+          },          
+          {
+            "title": "⚡️ Solution",
+            "text": "step04.md"
+          },
+          {
+            "title": "⚡️ Wrap-up",
+            "text": "step05.md"
           }
         ],
         "finish": {

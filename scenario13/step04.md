@@ -17,4 +17,4 @@ kubectl top pod hunger-check-deployment-xxxxxxxxxx-xxxxx
 
 ![Scenario 13 kubectl top](./sc-13-3.png)
 
-> This attack may not work in some cases like autoscaling, resource restrictions, etc.
+> This attack may not work in some cases like autoscaling, resource restrictions, etc. Also, it may cause more damage when there are autoscaling is enabled and creating more resources and making more expensive bills to the cloud provider or impacting the availability of the resources and services.

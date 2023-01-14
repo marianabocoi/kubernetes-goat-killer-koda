@@ -1,9 +1,8 @@
-## Wrap-up
+### 🪄 Hints & Spoilers
 
-Now that you found the secrets, it's time to validate your solution to the challenge. 
-
-For that, assign the value of the `flag` environment variable you found in the committed code to the `SOLUTION` variable: 
-```
-export SOLUTION=<flag>
-```
-Then press `CHECK`!
+<details>
+  <summary><b>✨ How can I DoS resources? </b></summary>
+  <div>
+    <div>You can leverage the popular command line utility like <b>stress-ng</b> 🙌</div>
+  </div>
+</details>

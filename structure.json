@@ -17,7 +17,7 @@
       { "path": "scenario12" , 
       "title": "Scenario 12 - ⎈ Gaining environment info",
       "description": "This is no different from the traditional workloads. Most of the compute instances while running the applications store sensitive information like secrets, api_keys, etc. in the environment variables. Similarly, in Kubernetes, most of the people store sensitive information like Kubernetes Secrets and the Config values in the environment variables and if an attacker can find application vulnerabilities like RCE(remote code execution) or command injection then it's game over for that secret."},
-      { "path": "scenario13",
+      { "path": "scenario13" ,
       "title": "Scenario 13 - ⎈ DoS the Memory/CPU resources",
       "description": "Availability is one of the triads in CIA. One of the core problems solved by Kubernetes is the management of the resources like autoscaling, rollouts, etc. In this scenario, we will see how attackers can leverage and gain access to more resources or cause an impact on the availability of the resources by performing the DoS (Denial of Service) if there were no resource management configurations implemented on the cluster resources like memory and CPU requests and limits."},
       { "path": "scenario15",
