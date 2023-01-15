@@ -1,0 +1,40 @@
+{
+    "title": "Scenario 19 - ⎈ Popeye - A Kubernetes cluster sanitizer",
+    "description": "This scenario is useful in performing Kubernetes security audits and assessments. Here you will learn how to run an open-source tool called `Popeye` for the Kubernetes cluster.",
+    "details": {
+        "intro": {
+          "text": "intro.md",
+          "background": "background_setup.sh",
+          "foreground": "setup_msg.sh"
+        },
+        "steps": [
+          {
+            "title": "⚡️ The story",
+            "text": "step01.md"
+          },
+          {
+            "title": "🎯 Goal",
+            "text": "step02.md"
+          },
+          {
+            "title": "🪄 Hints & Spoilers",
+            "text": "step03.md"
+          },
+          {
+            "title": "🎉 Solution & Walkthrough",
+            "text": "step04.md"
+          },
+          {
+            "title": "⚡️ Wrap up",
+            "text": "step05.md"
+          }
+        ],
+        "finish": {
+          "title": "Hooray 🥳",
+          "text": "finish.md"
+        }
+      },
+      "backend": {
+        "imageid": "kubernetes-kubeadm-2nodes-ubuntu20.04"
+      }
+}

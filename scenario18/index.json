@@ -1,0 +1,40 @@
+{
+    "title": "Scenario 18 - ⎈ Falco - Runtime security monitoring & detection",
+    "description": "In this scenario, we will see how we can leverage the popular open-source tool like Falco to detect and perform runtime security monitoring using the ruleset in action.",
+    "details": {
+        "intro": {
+          "text": "intro.md",
+          "background": "background_setup.sh",
+          "foreground": "setup_msg.sh"
+        },
+        "steps": [
+          {
+            "title": "⚡️ The story",
+            "text": "step01.md"
+          },
+          {
+            "title": "🎯 Goal",
+            "text": "step02.md"
+          },
+          {
+            "title": "🪄 Hints & Spoilers",
+            "text": "step03.md"
+          },
+          {
+            "title": "🎉 Solution & Walkthrough",
+            "text": "step04.md"
+          },
+          {
+            "title": "⚡️ Wrap up",
+            "text": "step05.md"
+          }
+        ],
+        "finish": {
+          "title": "Hooray 🥳",
+          "text": "finish.md"
+        }
+      },
+      "backend": {
+        "imageid": "kubernetes-kubeadm-2nodes-ubuntu20.04"
+      }
+}

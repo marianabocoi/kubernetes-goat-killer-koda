@@ -1,8 +1,17 @@
 #!/bin/bash
-git clone https://github.com/madhuakula/kubernetes-goat.git
+# Install necessary helm
+helm repo add falcosecurity https://falcosecurity.github.io/charts
+sleep 1
+helm repo update
+sleep 1
+helm install falco falcosecurity/falco
+sleep 1
 
-kubectl apply -f kubernetes-goat/scenarios/batch-check/job.yaml
+# Install K8s goat scenario
+git clone https://github.com/madhuakula/kubernetes-goat.git
+kubectl apply -f scenarios/build-code/deployment.yaml
 sleep 15
+
 
 echo "  _  __     _                          _             " >>kubegoat
 echo " | |/ /    | |                        | |            " >>kubegoat

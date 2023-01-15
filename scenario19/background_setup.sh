@@ -1,7 +1,8 @@
 #!/bin/bash
+pip install git-dumper
 git clone https://github.com/madhuakula/kubernetes-goat.git
 
-kubectl apply -f kubernetes-goat/scenarios/batch-check/job.yaml
+kubectl apply -f scenarios/docker-bench-security/deployment.yaml
 sleep 15
 
 echo "  _  __     _                          _             " >>kubegoat

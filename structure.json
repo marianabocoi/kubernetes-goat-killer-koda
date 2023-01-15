@@ -40,6 +40,15 @@
       "description": "Most of the container images download and used on the internet are created by someone else. If we don't know how they get created (which means if we don't have Dockerfile) then I think we might be in trouble sometimes. In this scenario, we can see how to analyze the docker container image layers by using the built-in utilities and also some popular open-source utilities like dive to understand the container image layers."},
       { "path": "scenario16",
       "title": "Scenario 16 - ⎈ RBAC Least privilege",
-      "description": "In the early days of Kubernetes, there is no such concept as RBAC (role-based access control) and mostly it uses ABAC (attribute-based access control). Now it has superpowers like RBAC to implement the security principle of least privilege. Still, most of the real-world workloads and resources end up having wider privileges than it is intended to have. In this scenario, we will see how simple misconfiguration like this can gain access to secrets, more resources, and information."}
+      "description": "In the early days of Kubernetes, there is no such concept as RBAC (role-based access control) and mostly it uses ABAC (attribute-based access control). Now it has superpowers like RBAC to implement the security principle of least privilege. Still, most of the real-world workloads and resources end up having wider privileges than it is intended to have. In this scenario, we will see how simple misconfiguration like this can gain access to secrets, more resources, and information."},
+      { "path": "scenario17" , 
+      "title": "Scenario 17 - ⎈ KubeAudit - Audit Kubernetes clusters",
+      "description": "This scenario is very useful in performing Kubernetes security audits and assessments."},
+      { "path": "scenario18" ,
+      "title": "Scenario 18 - ⎈ Falco - Runtime security monitoring & detection",
+      "description": "In this scenario, we will see how we can leverage the popular open-source tool like Falco to detect and perform runtime security monitoring using the ruleset in action."},
+      { "path": "scenario19",
+      "title": "Scenario 19 - ⎈ Popeye - A Kubernetes cluster sanitizer",
+      "description": "This scenario is useful in performing Kubernetes security audits and assessments. Here you will learn how to run an open-source tool called `Popeye` for the Kubernetes cluster."}
     ]
   }

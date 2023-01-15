@@ -1,7 +1,7 @@
 #!/bin/bash
 git clone https://github.com/madhuakula/kubernetes-goat.git
 
-kubectl apply -f kubernetes-goat/scenarios/batch-check/job.yaml
+kubectl apply -f scenarios/kubernetes-goat-home/deployment.yaml
 sleep 15
 
 echo "  _  __     _                          _             " >>kubegoat
@@ -19,7 +19,7 @@ echo "   __/ |                                             " >>kubegoat
 echo "  |___/  " >>kubegoat
 
 
-echo 'export POD_NAME=$(kubectl get pods --namespace default -l "app=build-code" -o jsonpath="{.items[0].metadata.name}")'> startup.sh
+echo 'export POD_NAME=$(kubectl get pods --namespace default -l "app=kubernetes-goat-home" -o jsonpath="{.items[0].metadata.name}")'> startup.sh
 echo 'kubectl port-forward $POD_NAME --address 0.0.0.0 1230:3000 > /dev/null 2>&1 &'>> startup.sh
 echo 'cat ~/kubegoat'>> startup.sh
 echo 'echo ==================================='>> startup.sh

@@ -1,0 +1,1 @@
+![Scenario 18 falco detect /etc/shadow](./sc-18-3.png)
