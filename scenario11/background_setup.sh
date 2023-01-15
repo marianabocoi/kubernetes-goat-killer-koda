@@ -1,7 +1,7 @@
 #!/bin/bash
+git clone https://github.com/madhuakula/hacker-container
 git clone https://github.com/madhuakula/kubernetes-goat.git
-
-kubectl apply -f scenarios/docker-bench-security/deployment.yaml
+kubectl apply -f scenarios/cache-store/deployment.yaml
 sleep 15
 
 echo "  _  __     _                          _             " >>kubegoat
@@ -19,7 +19,7 @@ echo "   __/ |                                             " >>kubegoat
 echo "  |___/  " >>kubegoat
 
 
-echo 'export POD_NAME=$(kubectl get pods --namespace default -l "app=build-code" -o jsonpath="{.items[0].metadata.name}")'> startup.sh
+echo 'export POD_NAME=$(kubectl get pods --namespace default -l "app=cache-store" -o jsonpath="{.items[0].metadata.name}")'> startup.sh
 echo 'kubectl port-forward $POD_NAME --address 0.0.0.0 1230:3000 > /dev/null 2>&1 &'>> startup.sh
 echo 'cat ~/kubegoat'>> startup.sh
 echo 'echo ==================================='>> startup.sh

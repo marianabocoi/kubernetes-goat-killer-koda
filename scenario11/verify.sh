@@ -1,0 +1,1 @@
+if $SOLUTION != 'k8s-goat-<TODO>'; then exit 1; fi

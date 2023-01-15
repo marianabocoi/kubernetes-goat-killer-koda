@@ -1,6 +1,6 @@
 {
-    "title": "Scenario 11 - ⎈ ",
-    "description": "",
+    "title": "Scenario 11 - ⎈ Kubernetes namespaces bypass",
+    "description": "In this scenario, we see how we can bypass the namespaces and access other namespaces resources.",
     "details": {
         "intro": {
           "text": "intro.md",
@@ -25,8 +25,9 @@
             "text": "step04.md"
           },
           {
-            "title": "⚡️ Wrap up",
-            "text": "step05.md"
+            "title": "⚡️ Wrap-up",
+            "text": "step05.md",
+            "verify": "verify.sh"
           }
         ],
         "finish": {
