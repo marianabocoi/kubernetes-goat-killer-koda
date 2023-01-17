@@ -2,7 +2,7 @@
 pip install git-dumper
 git clone https://github.com/madhuakula/kubernetes-goat.git
 
-kubectl apply -f kubernetes-goat/scenarios/internal-proxy//deployment.yaml
+kubectl apply -f kubernetes-goat/scenarios/internal-proxy/deployment.yaml
 sleep 15
 
 echo "  _  __     _                          _             " >>kubegoat
@@ -21,7 +21,7 @@ echo "  |___/  " >>kubegoat
 
 
 echo 'export POD_NAME=$(kubectl get pods --namespace default -l "app=internal-proxy" -o jsonpath="{.items[0].metadata.name}")'> startup.sh
-echo 'kubectl port-forward $POD_NAME --address 0.0.0.0 1230:3000 > /dev/null 2>&1 &'>> startup.sh
+echo 'kubectl port-forward $POD_NAME --address 0.0.0.0 1232:3000 > /dev/null 2>&1 &'>> startup.sh
 echo 'cat ~/kubegoat'>> startup.sh
 echo 'echo ==================================='>> startup.sh
 echo 'echo Hello and welcome to this scenario!'>> startup.sh
