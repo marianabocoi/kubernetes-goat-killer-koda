@@ -75,8 +75,6 @@ KEYS *
 GET SECRETSTUFF
 ```
 
-![Scenario 11 redis access](./sc-11-5.png)
-
 :::tip
 
 There are many other services and resources exposed within the cluster like ElasticSearch, Mongo, etc. So if your recon skill is good then you got a gold mine here.
