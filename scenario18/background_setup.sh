@@ -10,8 +10,9 @@ sleep 1
 # Install K8s goat scenario
 git clone https://github.com/madhuakula/kubernetes-goat.git
 kubectl apply -f kubernetes-goat/scenarios/hunger-check/deployment.yaml
-git clone https://github.com/madhuakula/hacker-container.git
-docker build ~/hacker-container 
+# git clone https://github.com/madhuakula/hacker-container.git
+# docker build ~/hacker-container 
+docker pull madhuakula/hacker-container
 sleep 15
 
 
