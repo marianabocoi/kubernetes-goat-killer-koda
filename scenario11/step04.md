@@ -5,6 +5,7 @@
 * Let's run the `hacker-container` in the default namespace by using the following command to get started
 
 ```bash
+docker pull madhuakula/hacker-container
 kubectl run -it hacker-container --image=madhuakula/hacker-container -- sh
 ```
 
