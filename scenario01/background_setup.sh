@@ -2,6 +2,7 @@
 pip install git-dumper
 git clone https://github.com/madhuakula/kubernetes-goat.git
 kubectl apply -f kubernetes-goat/scenarios/hunger-check/deployment.yaml
+sleep 15
 
 echo "  _  __     _                          _             " >>kubegoat
 echo " | |/ /    | |                        | |            " >>kubegoat
