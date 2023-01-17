@@ -4,8 +4,6 @@
 
 It's commonly seen that most of the container users download the images from the public container registries like Docker Hub and others. We have seen a ton of hacks and compromises of these and also attackers abusing these by uploading the container images which has crypto miners to use the cluster resources. In this scenario, we see one simple and very common way of exploiting these vulnerabilities in the public container images.
 
-![](images/scenario-diagram-wip.png)
-
 By the end of the scenario, we will understand and learn the following
 
 1. You will learn to analyze the container image

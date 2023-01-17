@@ -1,1 +1,1 @@
-if $SOLUTION != 'k8s-goat-<TODO put the correct secret>'; then exit 1; fi
+if $SOLUTION != 'k8s-goat-a5e0a28fa75bf429123943abedb065d1'; then exit 1; fi
