@@ -4,7 +4,7 @@ Most of the monitoring, tracing, and debugging software requires extra privilege
 
 :::info
 
-To get started with the scenario, navigate to [http://127.0.0.1:1233](http://127.0.0.1:1233)
+To get started with the scenario, navigate to [service page]({{TRAFFIC_HOST1_1233}})
 
 :::
 ![Scenario 4 Welcome](./sc-4-1.png)
