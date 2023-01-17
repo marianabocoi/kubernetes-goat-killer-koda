@@ -2,6 +2,7 @@
 git clone https://github.com/madhuakula/kubernetes-goat.git
 
 kubectl apply -f kubernetes-goat/scenarios/internal-proxy/deployment.yaml
+kubectl apply -f kubernetes-goat/scenarios/metadata-db/deployment.yaml
 sleep 15
 
 echo "  _  __     _                          _             " >>kubegoat
