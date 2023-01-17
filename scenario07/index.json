@@ -25,9 +25,8 @@
             "text": "step04.md"
           },
           {
-            "title": "⚡️ Verify",
-            "text": "step05.md",
-            "verify": "verify.sh"
+            "title": "⚡️ Wrap-up",
+            "text": "step05.md"
           }
         ],
         "finish": {

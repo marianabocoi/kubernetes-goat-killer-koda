@@ -1,9 +1,5 @@
-## Wrap-up
+:::tip
 
-Now that you found the secrets, it's time to validate your solution to the challenge. 
+This can be taken a little further by using the `docker` client to download the images locally and analyzing. Also in some cases, you can even push the image to the registry based on the permissions and privileges.
 
-For that, assign the value of the `flag` environment variable you found in the committed code to the `SOLUTION` variable: 
-```
-export SOLUTION=<flag>
-```
-Then press `CHECK`!
+:::
