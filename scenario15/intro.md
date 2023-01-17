@@ -1,7 +1,5 @@
 Most of the container images download and used on the internet are created by someone else. If we don't know how they get created (which means if we don't have `Dockerfile`) then I think we might be in trouble sometimes. In this scenario, we can see how to analyze the docker container image layers by using the built-in utilities and also some popular open-source utilities like dive to understand the container image layers.
 
-![](images/scenario-diagram-wip.png)
-
 By the end of the scenario, we will understand and learn the following
 
 1. How to explore, introspect and analyze docker container images

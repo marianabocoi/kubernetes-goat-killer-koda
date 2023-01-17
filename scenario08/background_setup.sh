@@ -1,5 +1,4 @@
 #!/bin/bash
-pip install git-dumper
 git clone https://github.com/madhuakula/kubernetes-goat.git
 
 kubectl apply -f kubernetes-goat/scenarios/internal-proxy/deployment.yaml
