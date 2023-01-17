@@ -4,7 +4,7 @@ kubectl apply -f kubernetes-goat/scenarios/hunger-check/deployment.yaml
 # git clone https://github.com/madhuakula/hacker-container.git
 # docker build ~/hacker-container 
 docker pull madhuakula/hacker-container
-kubectl apply -f kubernetes-goat/scenarios/metadata-db/deployment.yaml
+helm install metadata-db kubernetes-goat/scenarios/metadata-db/
 sleep 15
 
 echo "  _  __     _                          _             " >>kubegoat
