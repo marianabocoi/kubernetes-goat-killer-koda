@@ -4,7 +4,7 @@ There is no specification of resources in the Kubernetes manifests and no applie
 
 :::info
 
-To get started with the scenario, navigate to [http://127.0.0.1:1236](http://127.0.0.1:1236)
+To get started with the scenario, navigate to [service page]({{TRAFFIC_HOST1_1236}})
 
 :::
 

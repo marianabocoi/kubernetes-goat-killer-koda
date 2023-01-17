@@ -4,7 +4,7 @@ We commonly see in the real world where developers and DevOps teams tend to prov
 
 :::info
 
-To get started with the scenario, navigate to [http://127.0.0.1:1236](http://127.0.0.1:1236)
+To get started with the scenario, navigate to [service page]({{TRAFFIC_HOST1_1236}})
 
 :::
 

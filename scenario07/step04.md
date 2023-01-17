@@ -12,7 +12,7 @@ As this is an intentionally vulnerable design, we directly provided the endpoint
 
 * After reading some documentation and googling, here are the simple API endpoint queries for talking to the container registry
 
-* To query the registry API v2
+* To query the registry API v2 
 
 ```bash
 curl http://127.0.0.1:1235/v2/
@@ -41,3 +41,6 @@ curl http://127.0.0.1:1235/v2/madhuakula/k8s-goat-users-repo/manifests/latest | 
 ```
 
 ![Scenario 7 api key info](./sc-7-4.png)
+
+### Troubeshooting
+Curl [service page]({{TRAFFIC_HOST1_1235}}) instead

@@ -4,7 +4,7 @@ A container registry is a place where all the container images get pushed. Most 
 
 :::info
 
-To get started with the scenario, navigate to [http://127.0.0.1:1235](http://127.0.0.1:1235)
+To get started with the scenario, navigate to [service page]({{TRAFFIC_HOST1_1235}})
 
 :::
 

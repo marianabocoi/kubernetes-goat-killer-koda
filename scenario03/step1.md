@@ -4,7 +4,7 @@ SSRF (Server Side Request Forgery) vulnerability became the go-to attack for clo
 
 :::info
 
-To get started with the scenario, navigate to [http://127.0.0.1:1232](http://127.0.0.1:1232)
+To get started with the scenario, navigate to [service page]({{TRAFFIC_HOST1_1232}})
 
 :::
 
